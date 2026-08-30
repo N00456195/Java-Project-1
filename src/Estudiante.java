@@ -14,4 +14,8 @@ public class Estudiante {
     public int getEdad() {
         return edad;
     }
+
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre + ", Edad: " + edad);
+    }
 }
