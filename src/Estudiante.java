@@ -15,6 +15,10 @@ public class Estudiante {
         return edad;
     }
 
+    public boolean esMayorDeEdad() {
+    return edad >= 18;
+    }
+
     public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad);
     }
